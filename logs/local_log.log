@@ -1,0 +1,554 @@
+2022-07-14 11:51:16 [restartedMain] [INFO ] com.example.board.BoardApplication - Starting BoardApplication using Java 11.0.15 on minjun with PID 16974 (/home/minjun/Desktop/workspace/board/target/classes started by root in /home/minjun/Desktop/workspace/board)
+2022-07-14 11:51:16 [restartedMain] [INFO ] com.example.board.BoardApplication - The following 1 profile is active: "local"
+2022-07-14 11:51:17 [restartedMain] [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-14 11:51:17 [restartedMain] [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-14 11:51:19 [restartedMain] [DEBUG] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-07-14 11:51:19 [restartedMain] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-07-14 11:51:20 [restartedMain] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-14 11:51:20 [restartedMain] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-14 11:51:20 [restartedMain] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-14 11:51:20 [restartedMain] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-14 11:51:20 [restartedMain] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2983 ms
+2022-07-14 11:51:21 [restartedMain] [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-14 11:51:21 [restartedMain] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-07-14 11:51:21 [restartedMain] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-07-14 11:51:21 [restartedMain] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-14 11:51:21 [restartedMain] [INFO ] com.example.board.BoardApplication - Started BoardApplication in 5.651 seconds (JVM running for 6.505)
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [DEBUG] c.e.board.controller.BoardController - Logger Level - [DEBUG]
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] c.e.board.controller.BoardController - Logger Level - [INFO]
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [WARN ] c.e.board.controller.BoardController - Logger Level - [WARN]
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [ERROR] c.e.board.controller.BoardController - Logger Level - [ERROR]
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] c.example.board.service.BoardService - Logger Level - [INFO]
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [WARN ] c.example.board.service.BoardService - Logger Level - [WARN]
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [ERROR] c.example.board.service.BoardService - Logger Level - [ERROR]
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 11:52:17 [http-nio-8080-exec-2] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-14 11:52:18 [http-nio-8080-exec-2] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [DEBUG] c.e.board.controller.BoardController - Logger Level - [DEBUG]
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [INFO ] c.e.board.controller.BoardController - Logger Level - [INFO]
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [WARN ] c.e.board.controller.BoardController - Logger Level - [WARN]
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [ERROR] c.e.board.controller.BoardController - Logger Level - [ERROR]
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [INFO ] c.example.board.service.BoardService - Logger Level - [INFO]
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [WARN ] c.example.board.service.BoardService - Logger Level - [WARN]
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [ERROR] c.example.board.service.BoardService - Logger Level - [ERROR]
+2022-07-14 13:34:30 [http-nio-8080-exec-5] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [DEBUG] c.e.board.controller.BoardController - Logger Level - [DEBUG]
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [INFO ] c.e.board.controller.BoardController - Logger Level - [INFO]
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [WARN ] c.e.board.controller.BoardController - Logger Level - [WARN]
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [ERROR] c.e.board.controller.BoardController - Logger Level - [ERROR]
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [INFO ] c.example.board.service.BoardService - Logger Level - [INFO]
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [WARN ] c.example.board.service.BoardService - Logger Level - [WARN]
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [ERROR] c.example.board.service.BoardService - Logger Level - [ERROR]
+2022-07-14 13:34:33 [http-nio-8080-exec-6] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [DEBUG] c.e.board.controller.BoardController - Logger Level - [DEBUG]
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [INFO ] c.e.board.controller.BoardController - Logger Level - [INFO]
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [WARN ] c.e.board.controller.BoardController - Logger Level - [WARN]
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [ERROR] c.e.board.controller.BoardController - Logger Level - [ERROR]
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [INFO ] c.example.board.service.BoardService - Logger Level - [INFO]
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [WARN ] c.example.board.service.BoardService - Logger Level - [WARN]
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [ERROR] c.example.board.service.BoardService - Logger Level - [ERROR]
+2022-07-14 13:36:16 [http-nio-8080-exec-9] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:55:00 [SpringApplicationShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-14 13:55:00 [SpringApplicationShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-14 13:55:08 [restartedMain] [INFO ] com.example.board.BoardApplication - Starting BoardApplication using Java 11.0.15 on minjun with PID 25612 (/home/minjun/Desktop/workspace/board/target/classes started by root in /home/minjun/Desktop/workspace/board)
+2022-07-14 13:55:08 [restartedMain] [INFO ] com.example.board.BoardApplication - The following 1 profile is active: "local"
+2022-07-14 13:55:08 [restartedMain] [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-14 13:55:08 [restartedMain] [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-14 13:55:09 [restartedMain] [DEBUG] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-07-14 13:55:09 [restartedMain] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-07-14 13:55:09 [restartedMain] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-14 13:55:09 [restartedMain] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-14 13:55:09 [restartedMain] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-14 13:55:09 [restartedMain] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-14 13:55:09 [restartedMain] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1561 ms
+2022-07-14 13:55:10 [restartedMain] [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-14 13:55:10 [restartedMain] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-07-14 13:55:10 [restartedMain] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-07-14 13:55:10 [restartedMain] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-14 13:55:10 [restartedMain] [INFO ] com.example.board.BoardApplication - Started BoardApplication in 3.22 seconds (JVM running for 3.684)
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [DEBUG] c.e.board.controller.BoardController - Logger Level - [DEBUG]
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] c.e.board.controller.BoardController - Logger Level - [INFO]
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [WARN ] c.e.board.controller.BoardController - Logger Level - [WARN]
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [ERROR] c.e.board.controller.BoardController - Logger Level - [ERROR]
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] c.example.board.service.BoardService - Logger Level - [INFO]
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [WARN ] c.example.board.service.BoardService - Logger Level - [WARN]
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [ERROR] c.example.board.service.BoardService - Logger Level - [ERROR]
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-14 13:55:12 [http-nio-8080-exec-2] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [DEBUG] c.e.board.controller.BoardController - Logger Level - [DEBUG]
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [INFO ] c.e.board.controller.BoardController - Logger Level - [INFO]
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [WARN ] c.e.board.controller.BoardController - Logger Level - [WARN]
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [ERROR] c.e.board.controller.BoardController - Logger Level - [ERROR]
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [INFO ] c.example.board.service.BoardService - Logger Level - [INFO]
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [WARN ] c.example.board.service.BoardService - Logger Level - [WARN]
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [ERROR] c.example.board.service.BoardService - Logger Level - [ERROR]
+2022-07-14 13:57:00 [http-nio-8080-exec-4] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [DEBUG] c.e.board.controller.BoardController - Logger Level - [DEBUG]
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [INFO ] c.e.board.controller.BoardController - Logger Level - [INFO]
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [WARN ] c.e.board.controller.BoardController - Logger Level - [WARN]
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [ERROR] c.e.board.controller.BoardController - Logger Level - [ERROR]
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [INFO ] c.e.board.controller.BoardController - ===== ===== ===== logging.level.com.example.board.controller - Logger Level ===== ===== =====
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [INFO ] c.example.board.service.BoardService - Logger Level - [INFO]
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [WARN ] c.example.board.service.BoardService - Logger Level - [WARN]
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [ERROR] c.example.board.service.BoardService - Logger Level - [ERROR]
+2022-07-14 16:07:19 [http-nio-8080-exec-8] [INFO ] c.example.board.service.BoardService - ===== ===== ===== logging.level.com.example.board - Logger Level ===== ===== =====
+2022-07-14 16:07:28 [SpringApplicationShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-14 16:07:28 [SpringApplicationShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-14 16:07:35 [restartedMain] [INFO ] com.example.board.BoardApplication - Starting BoardApplication using Java 11.0.15 on minjun with PID 30578 (/home/minjun/Desktop/workspace/board/target/classes started by root in /home/minjun/Desktop/workspace/board)
+2022-07-14 16:07:35 [restartedMain] [INFO ] com.example.board.BoardApplication - The following 1 profile is active: "local"
+2022-07-14 16:07:35 [restartedMain] [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-14 16:07:35 [restartedMain] [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-14 16:07:36 [restartedMain] [DEBUG] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSourceConfig' of type [com.example.board.config.DataSourceConfig$$EnhancerBySpringCGLIB$$2e639942] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-14 16:07:37 [restartedMain] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+2022-07-14 16:07:38 [restartedMain] [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-14 16:07:38 [restartedMain] [INFO ] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-07-14 16:07:38 [restartedMain] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-07-14 16:07:38 [restartedMain] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-14 16:07:38 [restartedMain] [INFO ] com.example.board.BoardApplication - Started BoardApplication in 2.92 seconds (JVM running for 3.517)
+2022-07-14 16:07:50 [http-nio-8080-exec-2] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-14 16:07:50 [http-nio-8080-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-14 16:07:50 [http-nio-8080-exec-2] [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-07-14 16:07:51 [http-nio-8080-exec-2] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-14 16:07:51 [http-nio-8080-exec-2] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-14 16:09:19 [http-nio-8080-exec-5] [WARN ] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.board.domain.Board com.example.board.controller.BoardController.insertBoard(com.example.board.domain.Board) throws java.lang.Exception]
+2022-07-14 16:21:06 [http-nio-8080-exec-10] [ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+### The error may exist in file [/home/minjun/Desktop/workspace/board/target/classes/mapper/BoardMapper.xml]
+### The error may involve com.example.board.mapper.BoardMapper.insertBoard-Inline
+### The error occurred while setting parameters
+### SQL: INSERT         INTO BOARD.TB_BOARD         (         BOARD_RE_REF         , BOARD_RE_LEV         , BOARD_RE_SEQ         , BOARD_WRITER         , BOARD_SUBJECT         , BOARD_CONTENT         , INS_USER_ID         , INS_DATE         , UPD_USER_ID         , UPD_DATE         )         VALUES         (         0         , 0         , 0         , ?         , ?         , ?         , 'TEST'         , NOW()         , 'TEST'         , NOW()         )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy83.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy84.insertBoard(Unknown Source)
+	at com.example.board.service.Impl.BoardServiceImpl.insertBoard(BoardServiceImpl.java:30)
+	at com.example.board.service.Impl.BoardServiceImpl$$FastClassBySpringCGLIB$$ab39f2cb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.board.service.Impl.BoardServiceImpl$$EnhancerBySpringCGLIB$$54c23a5.insertBoard(<generated>)
+	at com.example.board.controller.BoardController.insertBoard(BoardController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-07-14 16:22:26 [http-nio-8080-exec-3] [ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+### The error may exist in file [/home/minjun/Desktop/workspace/board/target/classes/mapper/BoardMapper.xml]
+### The error may involve com.example.board.mapper.BoardMapper.insertBoard-Inline
+### The error occurred while setting parameters
+### SQL: INSERT         INTO BOARD.TB_BOARD         (         BOARD_RE_REF         , BOARD_RE_LEV         , BOARD_RE_SEQ         , BOARD_WRITER         , BOARD_SUBJECT         , BOARD_CONTENT         , INS_USER_ID         , INS_DATE         , UPD_USER_ID         , UPD_DATE         )         VALUES         (         0         , 0         , 0         , ?         , ?         , ?         , 'TEST'         , NOW()         , 'TEST'         , NOW()         )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy83.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy84.insertBoard(Unknown Source)
+	at com.example.board.service.Impl.BoardServiceImpl.insertBoard(BoardServiceImpl.java:30)
+	at com.example.board.service.Impl.BoardServiceImpl$$FastClassBySpringCGLIB$$ab39f2cb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.board.service.Impl.BoardServiceImpl$$EnhancerBySpringCGLIB$$54c23a5.insertBoard(<generated>)
+	at com.example.board.controller.BoardController.insertBoard(BoardController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-07-14 16:23:15 [http-nio-8080-exec-5] [ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+### The error may exist in file [/home/minjun/Desktop/workspace/board/target/classes/mapper/BoardMapper.xml]
+### The error may involve com.example.board.mapper.BoardMapper.insertBoard-Inline
+### The error occurred while setting parameters
+### SQL: INSERT         INTO BOARD.TB_BOARD         (         BOARD_RE_REF         , BOARD_RE_LEV         , BOARD_RE_SEQ         , BOARD_WRITER         , BOARD_SUBJECT         , BOARD_CONTENT         , INS_USER_ID         , INS_DATE         , UPD_USER_ID         , UPD_DATE         )         VALUES         (         0         , 0         , 0         , ?         , ?         , ?         , 'TEST'         , NOW()         , 'TEST'         , NOW()         )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy83.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy84.insertBoard(Unknown Source)
+	at com.example.board.service.Impl.BoardServiceImpl.insertBoard(BoardServiceImpl.java:30)
+	at com.example.board.service.Impl.BoardServiceImpl$$FastClassBySpringCGLIB$$ab39f2cb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.board.service.Impl.BoardServiceImpl$$EnhancerBySpringCGLIB$$54c23a5.insertBoard(<generated>)
+	at com.example.board.controller.BoardController.insertBoard(BoardController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-07-14 16:23:37 [http-nio-8080-exec-7] [ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+### The error may exist in file [/home/minjun/Desktop/workspace/board/target/classes/mapper/BoardMapper.xml]
+### The error may involve com.example.board.mapper.BoardMapper.insertBoard-Inline
+### The error occurred while setting parameters
+### SQL: INSERT         INTO BOARD.TB_BOARD         (         BOARD_RE_REF         , BOARD_RE_LEV         , BOARD_RE_SEQ         , BOARD_WRITER         , BOARD_SUBJECT         , BOARD_CONTENT         , INS_USER_ID         , INS_DATE         , UPD_USER_ID         , UPD_DATE         )         VALUES         (         0         , 0         , 0         , ?         , ?         , ?         , 'TEST'         , NOW()         , 'TEST'         , NOW()         )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'] with root cause
+java.sql.SQLSyntaxErrorException: Unknown database 'BOARD'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy83.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy84.insertBoard(Unknown Source)
+	at com.example.board.service.Impl.BoardServiceImpl.insertBoard(BoardServiceImpl.java:30)
+	at com.example.board.service.Impl.BoardServiceImpl$$FastClassBySpringCGLIB$$ab39f2cb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.board.service.Impl.BoardServiceImpl$$EnhancerBySpringCGLIB$$54c23a5.insertBoard(<generated>)
+	at com.example.board.controller.BoardController.insertBoard(BoardController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-07-14 17:15:49 [SpringApplicationShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-14 17:15:49 [SpringApplicationShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

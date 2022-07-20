@@ -24,10 +24,10 @@ public class BoardController {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    public String logging(Board board) throws Exception {
+    public String logging(Board board, String crud) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
         String jsonStr = mapper.writeValueAsString(board);
-        logger.info(jsonStr);
+        logger.info("[{}] " + jsonStr, crud);
         return jsonStr;
     }
 
@@ -35,23 +35,15 @@ public class BoardController {
     public List<String> getBoardList() throws Exception {
         ArrayList<String> list = new ArrayList<>();
 
-        for (Board board : boardService.getBoardList()) {list.add(logging(board));}
+        for (Board board : boardService.getBoardList()) {list.add(logging(board, "GET"));}
         return list;
-//        return boardService.getBoardList();
     }
 
     @GetMapping("/{board_seq}")
     public String getBoardDetail(@PathVariable("board_seq") int board_seq) throws Exception {
         // Object to JSON String
-        return logging(boardService.getBoardDetail(board_seq));
+        return logging(boardService.getBoardDetail(board_seq), "GET");
 
-//        Board board = boardService.getBoardDetail(board_seq);
-//
-//        if(board == null) {
-//            throw new ResourceNotFoundException();
-//        }
-//
-//        return board; @Blank
     }
 
     @ResponseStatus(value = HttpStatus.CREATED)
@@ -69,7 +61,7 @@ public class BoardController {
 
         Board boardDetail = boardService.getBoardDetail(boardSeq);
 
-        return logging(boardDetail);
+        return logging(boardDetail, "POST");
     }
 
     @ResponseStatus(value = HttpStatus.OK)
@@ -80,7 +72,7 @@ public class BoardController {
 
         Board boardDetail = boardService.getBoardDetail(board_seq);
 
-        return logging(boardDetail);
+        return logging(boardDetail, "PUT");
     }
 
     @ResponseStatus(value = HttpStatus.OK)
@@ -92,7 +84,7 @@ public class BoardController {
         Board deleteBoard = new Board();
         deleteBoard.setBoard_seq(board_seq);
 
-        return logging(deleteBoard);
+        return logging(deleteBoard, "DELETE");
     }
 
 }
